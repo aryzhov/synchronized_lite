@@ -1,0 +1,14 @@
+name: synchronized_lite
+description: A locking mechanism for Dart analogous to synchronized blocks in Java.
+version: 1.0.0+1
+author: Alexander Ryzhov <aryzhov07@gmail.com>
+homepage: https://github.com/aryzhov/synchronized_lite
+
+environment:
+  sdk: ">=2.0.0 <3.0.0"
+
+dependencies:
+
+dev_dependencies:
+  test:
+  synchronized:
