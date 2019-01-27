@@ -22,7 +22,7 @@ class SomeActivity with Lock {
 
   Future<void> stop() async {
     // It's also correct to await a synchronized() call before returning
-    // It's incorrect to neither await a synchronized() call or not return its Future.
+    // It's incorrect to neither await a synchronized() call nor return its Future.
     await synchronized(() async {
       if(!_started)
         return;
